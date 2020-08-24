@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# extras
+.DS_Store
+.vscode
+
+# Datasets
+data
+
+# data cache's
+cache
