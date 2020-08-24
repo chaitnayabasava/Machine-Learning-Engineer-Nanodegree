@@ -13869,7 +13869,7 @@ Saving to: ‘./data/aclImdb_v1.tar.gz’
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> This helps us in representing all the words by using integers as it is not possible to process raw text (string) information and also, now all the reviews will be of a fix size making it easy to train the LSTM model.</p>
+<p><strong>Answer:</strong> This helps us in representing all the words by using integers as it is not possible to process raw text (string) information and also, now all the reviews will be of a fix size making it easy to train the LSTM model. This has a problem though as we may lose some of the sentiment from long reviews as they are getting truncated and teh shorter reviews would take too much space than what they would be originally taking.</p>
 
 </div>
 </div>
@@ -14557,7 +14557,7 @@ Billable seconds: 276
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> By comparing the test accuracies we can see that XGBoost was able to perform better than the current RNN model which was trained for 10 epochs. The XGBoost model got 0.8694 while the RNN model after 10 epochs got 0.8506 test accuracy. I think that improving the model architecture to include more layers of LSTM units and by using pre-trained word vectors the RNN based model can outperform XGBoost based model. Even by training the RNN model for a few more epochs can help in improving its performance. But as of now by taking the current accuracies, I would say that XGBoost is better choice compared to the present RNN model's state.</p>
 
 </div>
 </div>
@@ -15229,7 +15229,11 @@ Starting  neg  files
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong>
+<img src="results/result-1.png">
+<img src="results/result-2.png">
+<img src="results/result-3.png">
+<img src="results/result-4.png"></p>
 
 </div>
 </div>
