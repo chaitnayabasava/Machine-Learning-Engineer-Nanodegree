@@ -8,7 +8,7 @@ Please see the [sagemaker-deployment](https://github.com/udacity/sagemaker-deplo
 
 Train and deploy a sentiment analysis model on Sagemaker and use lambda and API gateway services provided by AWS to use the deployed model inside a web interface.
 
-## Technology stack and services used:
+## Tech stack and services used:
 - Pytorch
 - Amazon Sagemaker
 - AWS Lambda
