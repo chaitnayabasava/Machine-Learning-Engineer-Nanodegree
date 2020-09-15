@@ -10,6 +10,7 @@ __pycache__/
 
 # Datasets
 data
+__MACOSX
 
 # data cache's
 cache

@@ -1,4 +1,4 @@
-# Plagiarism Project, Machine Learning Deployment
+# Project 2 - Plagiarism Project, Machine Learning Deployment
 
 This is the second project of the Udacity Machine Learning Engineer Nanodegree program. Goal of the project is to build, train and dedploy a plagiarism detector in Amazon SageMaker using custom features and models.
 
