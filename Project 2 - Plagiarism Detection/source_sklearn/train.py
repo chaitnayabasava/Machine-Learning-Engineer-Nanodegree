@@ -4,7 +4,7 @@ import argparse
 import os
 import pandas as pd
 
-from sklearn.externals import joblib
+import joblib
 
 ## TODO: Import any additional libraries you need to define a model
 from sklearn.svm import LinearSVC
